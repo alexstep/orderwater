@@ -1,0 +1,17 @@
+{
+  "name": "flexbe-dash",
+  "version": "1.0.0",
+  "description": "sudo node server.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kellas",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.11.1",
+    "node-dash-button": "^0.2.6",
+    "node-persist": "0.0.8",
+    "request": "^2.67.0"
+  }
+}
