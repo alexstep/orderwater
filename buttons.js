@@ -38,7 +38,7 @@ buttons = {
 					' :moneybag: *'+order.info.order_full_price+' руб.*'+
 					'\n';
 					
-					slack.message(config.slack.channel, 'Кулер', msg);
+					slack.message(msg);
 				}
 			});
 		},
