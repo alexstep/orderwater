@@ -6,14 +6,14 @@
  */
 
 // Основная либа для прослушивания wifi
-sniffer	= require('node-dash-button');	
+sniffer	= require('node-dash-button');
 
 // Инициализируем БД а-ля localStorage
 storage = require('node-persist');
 storage.initSync();		
 
 // Для удобной работы с временем
-moment  = require('moment'); 			
+moment = require('moment');
 moment.locale('ru');
 
 // Для отправки http-запросов

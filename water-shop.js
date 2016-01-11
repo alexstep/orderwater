@@ -15,8 +15,8 @@
  */
 
 waterShop = {
-	site_url: 'http://565600.ru/',
-	api_url: 'http://565600.ru/api/plugin/pc_shop/',
+	site_url: 'http://iceberg-aqua.ru/',
+	api_url: 'http://iceberg-aqua.ru/api/plugin/pc_shop/',
 
 	// Отправка заказа
 	makeOrder: function(item_id, cnt, callbackFunc){

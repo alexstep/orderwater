@@ -30,7 +30,7 @@ config = {
 		enabled:true,
 
 		// Токен можно получить тут https://api.slack.com/web
-		token:'XXXX-8143992880-8270042386-12043154357-63a0c7d0d1',
+		token:'xxxx-8143992810-8270042386-12043154357-63a0c7d0d1',
 		
 		// Канал для отправки уведомлений
 		channel:'#general', // @username
