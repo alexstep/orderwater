@@ -11,22 +11,20 @@ sudo apt-get install libpcap-dev
 server.js нужно запускать с правами суперпользователя.
 
 
+
 Если что-то пошло не так с npm install попробуй самостоятельно
 
 <code>
-npm install socketwatcher
-
-npm install --save node-dash-button
+npm install socketwatcher && npm install --save node-dash-button
 </code>
 
-
 Проблемы могут возникать с пакетом socketwatcher.
+
+
 
 Так же стоит обновить npm и node-gyp
 
 <code>
-sudo npm install -g npm
-
-sudo npm install -g node-gyp
+sudo npm install -g npm && sudo npm install -g node-gyp
 </code>
 
