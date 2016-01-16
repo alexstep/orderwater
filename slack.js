@@ -5,7 +5,7 @@ slack = {
  		if (config.slack.enabled) {
  			this.send(config.slack.channel, config.slack.from, msg);
  		} else {
- 			console.log(config.slack.channel, config.slack,from, msg);
+ 			console.log(config.slack.channel, config.slack.from, msg);
  		}
  	},
 
