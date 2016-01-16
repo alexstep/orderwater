@@ -1,6 +1,7 @@
 Скрипт обработки нажатия на amazon dash button и заказа воды для кулера с сайта iceberg-aqua.ru 
 
-Подробности в статье: http://geektimes.ru/post/269008/
+###Подробности в статье: http://geektimes.ru/post/269008/
+
 
 Обратите внимание что модулю <a href="https://www.npmjs.com/package/node-dash-button">node-dash-button</a> нужен libcap для "прослушки" wi-fi.
 
