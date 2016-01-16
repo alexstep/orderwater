@@ -15,6 +15,7 @@ server.js нужно запускать с правами суперпользо
 
 <code>
 npm install socketwatcher
+
 npm install --save node-dash-button
 </code>
 
@@ -25,6 +26,7 @@ npm install --save node-dash-button
 
 <code>
 sudo npm install -g npm
+
 sudo npm install -g node-gyp
 </code>
 
