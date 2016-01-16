@@ -1,9 +1,7 @@
 Скрипт обработки нажатия на amazon dash button и заказа воды для кулера с сайта iceberg-aqua.ru 
+Подробности в статье: http://geektimes.ru/post/269008/
 
-
-Прочитай ман по node-dash-button https://www.npmjs.com/package/node-dash-button
-
-Обрати внимание что ему нужен libcap для "прослушки" wi-fi.
+Обратите внимание что модулю <a href="https://www.npmjs.com/package/node-dash-button">node-dash-button</a> нужен libcap для "прослушки" wi-fi.
 <code>
 sudo apt-get install libpcap-dev
 </code>
@@ -16,8 +14,10 @@ server.js нужно запускать с правами суперпользо
 npm install socketwatcher
 npm install --save node-dash-button
 </code>
-
 Проблемы могут возникать с пакетом socketwatcher.
-
-
+Так же стоит обновить npm и node-gyp
+<code>
+sudo npm install -g npm
+sudo npm install -g node-gyp
+</code>
 
